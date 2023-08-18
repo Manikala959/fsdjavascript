@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>var,let and const</title>
+</head>
+<body>
+	<h1>var,let and const</h1>
+	<script type="text/javascript">
+		var a=10;
+		//document.write(a);
+		let b=20;
+		//let b=30;//wrong---redeclaration is not possible
+		b=30;//reintialize is possible
+		//document.write(b);
+		{ 
+			let c =30;
+			//document.write(c);
+		}
+		//document.write(c); not possible bcz of c is block scope variable
+		const pi=3.14;
+		//pi=4.20;
+		const atmcardno = 123456789;
+		document.write(atmcardno)
+		//document.write(pi);
+
+	</script>
+</body>
+</html>
